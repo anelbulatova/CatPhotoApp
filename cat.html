@@ -1,9 +1,15 @@
 <h2>CatPhotoApp</h2>
 <main>
-  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  <head>
+    <p>Click here to view more <a href="#">cat photos</a>.</p>
 
-  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-
+    <a href="#"
+      ><img
+        src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+        alt="A cute orange cat lying on its back."
+    /></a>
+  </head>
+  <body>
   <p>Things cats love:</p>
   <ul>
     <li>cat nip</li>
@@ -17,6 +23,13 @@
     <li>other cats</li>
   </ol>
   <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-    <input type="text" placeholder="cat photo URL">
+    <input type="text" placeholder="cat photo URL" />
+    <label for="indoor">
+      <input id="indoor" type="radio" name="indoor-outdoor" />Indoor
+    </label>
+    <label for="outndoor">
+      <input id="outndoor" type="radio" name="indoor-outdoor" />Outdoor
+    </label>
   </form>
 </main>
+</body>
